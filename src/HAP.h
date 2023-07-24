@@ -73,7 +73,7 @@ struct HAPClient {
 
   // common structures and data shared across all HAP Clients
 
-  static const int MAX_HTTP=1000;                     // max number of bytes in HTTP message buffer
+  static const int MAX_HTTP=500;                     // max number of bytes in HTTP message buffer
   static const int MAX_CONTROLLERS=4;                // maximum number of paired controllers (HAP requires at least 16)
   static const int MAX_ACCESSORIES=41;                // maximum number of allowed Acessories (HAP limit=150, but not enough memory in ESP32 to run that many)
   
